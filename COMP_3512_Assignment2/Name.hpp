@@ -8,7 +8,7 @@ class Name
 	std::string middleName;
 	std::string lastName;
 public:
-	Name() :
+	Name():
 		firstName{ "" }, middleName{ "" }, lastName{ "" } {};
 	Name(std::string fName, std::string mName, std::string lName) :
 		firstName{ fName }, middleName{ mName }, lastName{ lName } {};
