@@ -90,6 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,12 +148,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\Date.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\DateTester.cpp" />
     <ClCompile Include="COMP_3512_Assignment2.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="DateTester.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\Date.hpp" />
+    <ClInclude Include="Date.hpp" />
     <ClInclude Include="Name.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

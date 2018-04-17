@@ -18,10 +18,10 @@
     <ClCompile Include="COMP_3512_Assignment2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\Date.cpp">
+    <ClCompile Include="Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\DateTester.cpp">
+    <ClCompile Include="DateTester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Name.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\Code for Lecture 34 20180409\Date.hpp">
+    <ClInclude Include="Date.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
