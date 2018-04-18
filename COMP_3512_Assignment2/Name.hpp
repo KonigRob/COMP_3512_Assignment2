@@ -4,17 +4,21 @@
 
 class Name
 {
+public:
+	Name(std::string firstName = "", std::string middleName = "", std::string lastName = "");
+	std::string getFirstName() const { return firstName; }
+	std::string getMiddleName() const { return middleName; }
+	std::string getLastName() const { return lastName; }
+
+	static bool is_valid_fullname(std::string, std::string, std::string);
+	static bool is_valid_name(std::string);
+	Name set_name(std::string, std::string, std::string);
+	
+	friend std::ostream& operator<<(std::ostream&, const Name&);
+	friend std::istream& operator>>(std::istream&, Name&);
+
+private:
 	std::string firstName;
 	std::string middleName;
 	std::string lastName;
-public:
-	Name():
-		firstName{ "" }, middleName{ "" }, lastName{ "" } {};
-	Name(std::string fName, std::string mName, std::string lName) :
-		firstName{ fName }, middleName{ mName }, lastName{ lName } {};
-	std::string getFirstName() { return firstName; }
-	void setFirstName(std::string fName) : firstName{ fName } {};
-	std::string getMiddleName() { return middleName; }
-	std::string getLastName() { return lastName; }
-	
 };
